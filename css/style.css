@@ -1,0 +1,20 @@
+:root{
+    --background: #fbf8f5;
+    --text: #0b0805;
+    --primary: #b28857;
+    --secondary: #bfd7a7;
+    --accent: #86bf73;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+    font-family: 'Open Sans';
+}
+
+@font-face
+{
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-VariableFont_wdth\,wght.ttf');
+}
