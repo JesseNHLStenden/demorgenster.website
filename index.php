@@ -20,8 +20,16 @@ if (!isset($_SESSION['loggedIn'])) {
         <img src="./img/logo.png" alt="Morgenster logo">
         <div class="short-info">Hello this is the landing page!</div>
         <div class="short-info">If you see this then you have succesfuly logged in.</div>
-        <div class="long-info">Insert longer descript there.</div>
     </div>
+    <form action="createUser.php" method="post">
+            <h2>Create new user</h2>
+            <br>
+            <input type="text" name="username" id="username" placeholder="Gebruikersnaam" required>
+            <br>
+            <label for="password">Wachtwoord</label><br>
+            <input type="password" name="password" id="password" placeholder="Wachtwoord" required><br>
+            <input type="submit" name="submit" id="submit" value="Log In">
+        </form>
 </body>
 
 </html>

@@ -34,12 +34,29 @@ img{
     border-radius: 15px;
     padding: 1vh;
 }
-.long-info{
-    background-color: var(--primary);
-    width: calc(53vh);
-    height: 25vh;
+
+input[type="text"], input[type="password"]{
+    margin-bottom: 2vh;
     border-radius: 15px;
-    padding: 15px;
+    height: 40px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--accent);
+}
+input[type="submit"]{
+    border-radius: 15px;
+    height: 40px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--primary);
+    background-color: var(--accent);
+    margin-left: auto;
+    margin-right: auto;
+    transition: .2s;
+}
+
+input[type="submit"]:hover{
+    transform: scale(1.2);
 }
 
 
